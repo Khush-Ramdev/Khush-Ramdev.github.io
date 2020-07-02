@@ -29,4 +29,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
     text-align: center; 
+    padding: 1rem;
+}
+
+@media(max-width:600px){
+    .contact_me{
+        flex-wrap:wrap;
+    }
 }

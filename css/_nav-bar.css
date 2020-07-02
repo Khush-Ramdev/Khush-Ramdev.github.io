@@ -5,10 +5,20 @@
     top:0px;
     width:100%;
     box-sizing: border-box;
-    display: flex;
+}
+
+.row{
+    display: flex ;
+    max-width: 1500px;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: row !important;
     justify-content: space-between;
 }
+
 #name{
+    padding: 0.5rem;
+    font-size: 2rem;
     font-family: 'Caveat', cursive;
     color: #000000;
 }
@@ -34,3 +44,15 @@ a:hover > li {
     background-color:#383e56;
     color: #ffffff;
 }
+
+@media (max-width:500px)
+{
+    .row{
+        display: inline;
+        text-align: center;
+    }
+    ul{
+        padding: 0;
+        justify-content:space-between;
+    }
+} 
