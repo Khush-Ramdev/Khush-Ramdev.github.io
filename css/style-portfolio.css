@@ -1,7 +1,7 @@
-@import '_nav-bar.css' ;
-@import '_welcome-section.css';
-@import '_projects-section.css';
-@import '_contact-me.css';
+@import 'nav-bar.css' ;
+@import 'welcome-section.css';
+@import 'projects-section.css';
+@import 'contact-me.css';
 
 body{
     background-color:#262626;
