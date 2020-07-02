@@ -27,8 +27,7 @@ ul{
     display: flex;
     justify-content:flex-end;   
     font-size:20px;
-    margin: 0;
-    
+    margin: 0;   
 }
 
 li{
@@ -53,6 +52,15 @@ a:hover > li {
     }
     ul{
         padding: 0;
-        justify-content:space-between;
+        justify-content:space-around;
+        font-size: 1rem;
     }
+    #name{
+        font-size: 1rem;
+        padding: 0.25rem 0 0 0;
+    }
+    li{
+        padding: 0.5rem 1rem;
+    }
+
 } 

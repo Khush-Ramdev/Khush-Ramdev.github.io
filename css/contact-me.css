@@ -36,4 +36,7 @@
     .contact_me{
         flex-wrap:wrap;
     }
+    #contact_info{
+        display: inline;
+    }
 }

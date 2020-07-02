@@ -26,3 +26,12 @@
     font-weight:lighter;
     font-family:monospace;
 }
+
+@media(max-width:600px){
+    #home>h1{
+        font-size: 40px;
+    }
+    #home>h2{
+        font-size: 20px;
+    }
+}
