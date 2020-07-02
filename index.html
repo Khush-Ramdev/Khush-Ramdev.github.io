@@ -2,25 +2,31 @@
 
 <head>
 
-    <link rel="stylesheet" type="text/css" href="style-portfolio.css">
+    <link rel="stylesheet" type="text/css" href="./css/style-portfolio.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c6ca89d84e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <main style="display: flex; flex-direction:column;">
-        <nav id="navbar">
-            <ul>
-                <li>
-                    <a href="#welcome-section">Home</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact_me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
+    <nav id="navbar">
+        <div id="name">
+            Khush Ramdev
+        </div>
+        <ul>
+            <a href="#welcome-section">
+                <li> Home</li>
+            </a>
+            <a href="#projects">
+                <li>Projects</li>
+            </a>
+            <a href="#contact_me">
+                <li>Contact Me</li>
+            </a>
+        </ul>
+    </nav>
+    <main id="main">
         <section id="welcome-section">
             <div id="home">
                 <h1>
@@ -31,79 +37,134 @@
                 </h2>
             </div>
         </section>
-        <section id="projects">
-            <h1 id="projecthead">These are some of my Projects</h1>
-            <div class="grid">
+        <!-- <section id="projects">
+           <div id="container">
+            <h1 id="project-head">My Projects</h1>
+            <div class="project-container">
                 <div class="project-tile">
-                    <a href="https://codepen.io/Khushramdev/full/qBdvmQQ" target="_blank">
-                        <img class=" project-image"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Colin_Chapman_%281965%29.jpg/220px-Colin_Chapman_%281965%29.jpg">
-                        <p>tribute page</p>
-                    </a>
+                    <div id="project-title">Tribute Page</div>
+                    <div>
+                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="result" data-user="Khushramdev" data-slug-hash="qBdvmQQ" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Tribute to Colin Chapman">
+                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/qBdvmQQ">
+                            FCC: Tribute to Colin Chapman</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    </div>
                 </div>
                 <div class="project-tile">
-                    <a href="https://codepen.io/Khushramdev/full/oNXVWVV" target="_blank">
-                        <img class="project-image" src="https://i.postimg.cc/9MxWgHFj/Capture.png">
-                        <p>survey page</p>
-                    </a>
+                    <div id="project-title">Survey Form</div>
+                    <div>
+                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="Khushramdev" data-slug-hash="oNXVWVV" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC:survey form ">
+                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/oNXVWVV">
+                            FCC:survey form </a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                   </div>
                 </div>
                 <div class="project-tile">
-                    <a href="https://codepen.io/Khushramdev/full/qBdwjmv" target="_blank">
-                        <img class="project-image" src="https://i.postimg.cc/8CfMSG0N/Capture1.png">
-                        <p>technical documentation page</p>
-                    </a>
+                    <div id="project-title">Documentation Page</div>
+                   <div>
+                    <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="Khushramdev" data-slug-hash="qBdwjmv" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="qBdwjmv">
+                        <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/qBdwjmv">
+                        qBdwjmv</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                   </div>
                 </div>
                 <div class="project-tile">
-                    <a href="https://codepen.io/Khushramdev/full/qBdwjmv" target="_blank">
-                        <img class="project-image" src="https://i.postimg.cc/zXf9F2QT/Capture2.png">
-                        <p>product landing page</p>
-                    </a>
-                 </div>
-                <!--
+                    <div id="project-title">Landing Page</div>
+                    <div>
+                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="Khushramdev" data-slug-hash="JjdVGYd" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Landing Page">
+                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/JjdVGYd">
+                            FCC: Landing Page</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+                </div>
+                <div class="project-tile"> 
+                    <div id="project-title">Responsive Website</div>
+                    <div>
+                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="Khushramdev" data-slug-hash="dyYeoeP" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="responsive website">
+                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/dyYeoeP">
+                            responsive website</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+                </div>
+                <div class="project-tile"> 
+                    <div id="project-title">Responsive Website 2</div>
+                    <div>
+                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="Khushramdev" data-slug-hash="zYvjLaG" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="responsive website 2">
+                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/zYvjLaG">
+                            responsive website 2</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    </div>
+                </div>
                  <div class="project-tile">
-                    <a>
-                        <p>more coming soon</p>
-                    </a>
+                    <div id="project-title">Markdown Previewer (react-js)</div>
+                    <div>
+                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="js,result" data-user="Khushramdev" data-slug-hash="XWXeBNQ" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC Markdown Preview">
+                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/XWXeBNQ">
+                            FCC Markdown Preview</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                          </p>
+                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    </div>
                 </div>
                 <div class="project-tile">
-                    <a>
-                        <p>more coming soon</p>
-                    </a>
-                </div> -->
+                    <div id="project-title">Random Quote Generator(react-js)</div>
+                   <div>
+                    <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="js,result" data-user="Khushramdev" data-slug-hash="gOPGpVg" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC RANDOM QUOTE GENERATOR">
+                        <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/gOPGpVg">
+                        FCC RANDOM QUOTE GENERATOR</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                   </div>
+                </div>
             </div>
-        </section>
+           </div>
+        </section> -->
         <section id="contact_me">
+           <div id="container">
             <div>
-                <h1 >Let's work together</h1>
+                <h1>Let's work together</h1>
             </div>
             <div class="contact_me">
                 <div id="contact_info">
-                    <a id="profile-link" href="https://www.linkedin.com/in/khush-ramdev-992b141a0/" target="_blank" >
-                        <i><img src="https://img.icons8.com/android/48/000000/linkedin.png" /><br />linkedin</i>
+                    <a id="profile-link" href="https://www.linkedin.com/in/khush-ramdev-992b141a0/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
                     </a>
+                    <p>LinkedIn</p>
                 </div>
                 <div id="contact_info">
                     <a id="profile-link" href="https://github.com/Khush-Ramdev" target="_blank">
-                        <i><img src="https://img.icons8.com/metro/48/000000/github.png" /><br />Github</i>
+                        <i class="fab fa-github fa-2x"></i>
                     </a>
+                    <p>Githhub</p>
                 </div>
                 <div id="contact_info">
                     <a id="profile-link" href="mailto:khushramdev@gmail.com?" target="_blank">
-                        <i><img src="https://img.icons8.com/metro/48/000000/email.png" /><br />E-mail</i>
+                        <i class="fas fa-envelope fa-2x"></i>
                     </a>
+                    <p>Email</p>
                 </div>
                 <div id="contact_info">
                     <a id="profile-link" href="https://www.freecodecamp.org/khush-ramdev " target="_blank">
-                        <i><img src="https://img.icons8.com/windows/48/000000/free-code-camp.png"><br />free code
-                            camp</i>
+                        <i class="fab fa-free-code-camp fa-2x"></i>
                     </a>
+                    <p>Free Code Camp</p>
                 </div>
             </div>
+           </div>
         </section>
-        <footer>
-            <i>&copy; Made for free code camp portfolio page <br /></i>
-            <a href="https://icons8.com/icon/3869/linkedin"> icons by Icons8</a>
-        </footer>
     </main>
 </body>
 

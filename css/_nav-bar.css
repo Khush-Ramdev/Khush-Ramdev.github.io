@@ -1,0 +1,36 @@
+#navbar{
+    background-color:#8bcdcd;
+    margin:0;
+    position: fixed;
+    top:0px;
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+#name{
+    font-family: 'Caveat', cursive;
+    color: #000000;
+}
+ul{
+    list-style:none;
+    display: flex;
+    justify-content:flex-end;   
+    font-size:20px;
+    margin: 0;
+    
+}
+
+li{
+    padding: 1rem;
+    color:#000000;
+}
+
+a li{
+    text-decoration:none;
+}
+
+a:hover > li {
+    background-color:#383e56;
+    color: #ffffff;
+}

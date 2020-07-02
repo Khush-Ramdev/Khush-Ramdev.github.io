@@ -1,0 +1,28 @@
+
+#welcome-section{
+    background-color:#262626;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:10px;
+}
+
+#home>h1{
+    margin: 10px;
+}
+
+#home>h2{
+    font-size:25px;
+    color: #f69e7b;
+    margin:5px;
+    font-style: italic;
+    font-weight:lighter;
+    font-family:monospace;
+}

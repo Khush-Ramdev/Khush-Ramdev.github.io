@@ -1,0 +1,26 @@
+
+#projects{
+    background-color: #45567d;
+    padding: 5rem 0;
+}
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#project-head{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.project-tile{
+    width:400px;
+}
+
+#project-title{
+    text-align: center;
+    font-size: 2rem;
+}
