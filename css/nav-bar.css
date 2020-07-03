@@ -47,7 +47,6 @@ a:hover > li {
 @media (max-width:500px)
 {
     .row{
-        display: inline;
         text-align: center;
     }
     ul{
@@ -61,6 +60,7 @@ a:hover > li {
     }
     li{
         padding: 0.5rem 1rem;
+        font-size: 0.5rem;
     }
 
 } 

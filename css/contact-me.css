@@ -1,5 +1,5 @@
 #contact_me{
-    height:100vh;
+    min-height:100vh;
     background-color:#595959;
     display:flex;
     flex-direction:column;
@@ -29,7 +29,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
     text-align: center; 
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 @media(max-width:600px){
