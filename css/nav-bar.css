@@ -1,5 +1,5 @@
 #navbar{
-    background-color:#8bcdcd;
+    background-color:#000;
     margin:0;
     position: fixed;
     top:0px;
@@ -16,12 +16,7 @@
     justify-content: space-between;
 }
 
-#name{
-    padding: 0.5rem;
-    font-size: 2rem;
-    font-family: 'Caveat', cursive;
-    color: #000000;
-}
+
 ul{
     list-style:none;
     display: flex;
@@ -32,16 +27,34 @@ ul{
 
 li{
     padding: 1rem;
-    color:#000000;
+    color:#fff;
 }
 
 a li{
     text-decoration:none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border:1px solid black; */
 }
 
 a:hover > li {
-    background-color:#383e56;
-    color: #ffffff;
+    background-color:#fff;
+    color: #000;
+}
+
+#name{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#name a{
+    vertical-align: middle;
+    font-family: 'Caveat', cursive !important;
+    color: #fff;
+}
+
+#name a:hover{
+    color:#424874;
 }
 
 @media (max-width:500px)

@@ -1,11 +1,13 @@
 <html>
 
 <head>
-
     <link rel="stylesheet" type="text/css" href="css/style-portfolio.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
     <script data-search-pseudo-elements defer src="https://kit.fontawesome.com/c6ca89d84e.js" crossorigin="anonymous"></script>
 </head>
 
@@ -13,11 +15,16 @@
     <nav id="navbar">
         <div class="row">
             <div id="name">
-                Khush Ramdev
+                <a href="https://www.linkedin.com/in/khush-ramdev-992b141a0/" target="_blank">
+                    Khush Ramdev
+                </a>
             </div>
             <ul>
                 <a href="#welcome-section">
                     <li> Home</li>
+                </a>
+                <a href="#aboutme1">
+                    <li>About Me</li>
                 </a>
                 <a href="#projects">
                     <li>Projects</li>
@@ -29,119 +36,174 @@
         </div>
     </nav>
     <main id="main">
-        <section id="welcome-section">
-            <div id="home">
-                <h1>
-                    Hey I am Khush
-                </h1>
-                <h2>
-                    a budding web developer
-                </h2>
+            <section id="welcome-section">
+                <div id="home">
+                    <div class="flex">
+                        <div >
+                            <img class="image" src='/image/mypic.jpeg'>
+                            </img>
+                        </div>
+                        <div class="text-header">
+                            <h1>
+                                Hey I am Khush
+                          </h1>
+                            <h2>
+                                a budding web developer
+                         </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <section class="aboutme" id="aboutme1">
+            <div id="container" class="flex-row">
+                <div class="aboutme-header">
+                    <h1>
+                        About Me
+                    </h1>
+                </div>
+                <div class="aboutme-content"> 
+                    Currently a student of 2<sup>nd</sup> year Information Tech. in MAIT Rohini<br></br>
+                    Not smartest in the room but I know my way around things. Developing front end skills such as ReactJs to reach my goal of being a Full Stack (MERN) developer. 
+                    Loves to watch Formula 1 and random documentaries. 
+                </div>
+            </div>
+        </section>
+        <section id="resume">
+            <div id="container">
+                <div id="education">
+                    <div id="education-header">
+                        <h1>
+                            Education
+                        </h1>
+                    </div>
+                    <div id="education-content">
+                        <div>
+                            <h2>Class X</h2>
+                            <div>
+                                
+                            </div>
+                        </div>
+                        <div>
+                            <h2>Class XII</h2>
+                        </div>
+                        <div>
+                            <h2>B.Tech</h2>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section >
+        <section id="resume">
+            <div id="container">
+                <div >
+                    <h1>
+                        Skills
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <section id="resume">
+            <div id="container">
+                <div>
+                    <h1>
+                        Certifications
+                    </h1>
+                </div>
             </div>
         </section>
         <section id="projects">
            <div id="container">
-            <h1 id="project-head">My Projects</h1>
+            <h1 id="project-head">PROJECTS</h1>
             <div class="project-container">
-                <div class="project-tile">
-                    <div id="project-title">Tribute Page</div>
+                <div class="card">
+                    <h1 class="card-header">
+                        <i class="fas fa-calculator"></i>
+                        Calculator
+                    </h1>
                     <div>
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="result" data-user="Khushramdev" data-slug-hash="qBdvmQQ" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Tribute to Colin Chapman">
-                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/qBdvmQQ">
-                            FCC: Tribute to Colin Chapman</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                        <p>
+                            A Simple calculator made using ReactJS
+                         </p>
+                        <a href='https://calculators-reactjs.netlify.app/' target="_blank">
+                            Live Demo
+                         </a>
                     </div>
                 </div>
-                <div class="project-tile">
-                    <div id="project-title">Survey Form</div>
+                <div class="card">
+                    <h1 class="card-header">
+                    <i class="far fa-clock"></i>
+                        Pomdoro Clock
+                    </h1>
                     <div>
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="Khushramdev" data-slug-hash="oNXVWVV" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC:survey form ">
-                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/oNXVWVV">
-                            FCC:survey form </a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-                   </div>
-                </div>
-                <div class="project-tile">
-                    <div id="project-title">Documentation Page</div>
-                   <div>
-                    <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="Khushramdev" data-slug-hash="qBdwjmv" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="qBdwjmv">
-                        <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/qBdwjmv">
-                        qBdwjmv</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                      </p>
-                      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-                   </div>
-                </div>
-                <div class="project-tile">
-                    <div id="project-title">Landing Page</div>
-                    <div>
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="Khushramdev" data-slug-hash="JjdVGYd" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC: Landing Page">
-                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/JjdVGYd">
-                            FCC: Landing Page</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    <p>
+                        Pomodoro Clock made using ReactJS
+                        use this to improve your efficiency of work
+                    </p>
+                    <a href='https://pomodroro-clock-reactjs.netlify.app' target="_blank">
+                        Live Demo
+                    </a>
                     </div>
                 </div>
-                <div class="project-tile"> 
-                    <div id="project-title">Responsive Website</div>
+                <div class="card">
+                    <h1 class="card-header">
+                    <i class="fas fa-clipboard"></i>
+           
+                        Markdown Previewer
+                    </h1>
                     <div>
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="Khushramdev" data-slug-hash="dyYeoeP" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="responsive website">
-                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/dyYeoeP">
-                            responsive website</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    <p>
+                        Markdown is a lightweight markup language with plain text formatting syntax. It is a simple way to add formatting like headers, bold, bulleted lists, and so on to a plain text. Markdown uses a simple formatting syntax to accomplish the same thing that HTML does, but it is simpler than HTML.
+                    </p>
+                    <a href='https://markdown-previewer-reactjs.netlify.app' target="_blank">
+                        Live Demo
+                    </a>
                     </div>
                 </div>
-                <div class="project-tile"> 
-                    <div id="project-title">Responsive Website 2</div>
+                <div class="card" >
+                    <h1 class="card-header">
+                    <i class="fas fa-quote-left fa-xs" ></i>
+                  
+                    <i class="fas fa-quote-right fa-xs"></i>
+             
+                        Random Quote Generator
+                    </h1>
                     <div>
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="Khushramdev" data-slug-hash="zYvjLaG" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="responsive website 2">
-                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/zYvjLaG">
-                            responsive website 2</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    <p>
+                        It generates a quote from 100 stored quotes which you can than tweet or share it on tumblr  
+                    </p>
+                    <a href='https://random-quote-reactjs.netlify.app/' target="_blank">
+                        Live Demo
+                    </a>
                     </div>
                 </div>
-                 <div class="project-tile">
-                    <div id="project-title">Markdown Previewer (react-js)</div>
+                <div class="card">
+                    <h1 class="card-header">
+                    <i class="fas fa-drum"></i>
+                  
+                        Drum Machine
+                    </h1>
                     <div>
-                        <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="js,result" data-user="Khushramdev" data-slug-hash="XWXeBNQ" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC Markdown Preview">
-                            <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/XWXeBNQ">
-                            FCC Markdown Preview</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                          </p>
-                          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                    <p>
+                        A drum Machine made using ReactJS. Was a fun project though a lot more of features and sounds can be added.
+                    </p>
+                    <a href='https://drum-machine-reactjs.netlify.app' target="_blank">
+                        Live Demo
+                    </a>
                     </div>
                 </div>
-                <div class="project-tile">
-                    <div id="project-title">Random Quote Generator(react-js)</div>
-                   <div>
-                    <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="js,result" data-user="Khushramdev" data-slug-hash="gOPGpVg" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC RANDOM QUOTE GENERATOR">
-                        <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/gOPGpVg">
-                        FCC RANDOM QUOTE GENERATOR</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                      </p>
-                      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-                   </div>
+                <div class="card">
+                    <h1 class="card-header">
+                    <i class="fas fa-plus"></i>
+          
+                        For More Projects
+                    </h1>
+                    <div>
+                        <a href='https://codepen.io/Khushramdev' target="_blank">
+                        Click Here
+                    </a>
+                    </div>
                 </div>
-                <div class="project-tile">
-                    <div id="project-title">Calculator (react-js)</div>
-                   <div>
-                    <p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="js,result" data-user="Khushramdev" data-slug-hash="OJMvLoq" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="FCC calculator(react)">
-                        <span>See the Pen <a href="https://codepen.io/Khushramdev/pen/OJMvLoq">
-                        FCC calculator(react)</a> by Khush (<a href="https://codepen.io/Khushramdev">@Khushramdev</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                      </p>
-                      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-                   </div>
-                </div>
+                
             </div>
            </div>
         </section> 
@@ -154,26 +216,21 @@
                 <div id="contact_info">
                     <a id="profile-link" href="https://www.linkedin.com/in/khush-ramdev-992b141a0/" target="_blank">
                         <i class="fab fa-linkedin fa-2x"></i>
+                        <p>LinkedIn</p>
                     </a>
-                    <p>LinkedIn</p>
                 </div>
                 <div id="contact_info">
                     <a id="profile-link" href="https://github.com/Khush-Ramdev" target="_blank">
                         <i class="fab fa-github fa-2x"></i>
+                        <p>Github</p>
                     </a>
-                    <p>Github</p>
+                    
                 </div>
                 <div id="contact_info">
                     <a id="profile-link" href="mailto:khushramdev@gmail.com?" target="_blank">
                         <i class="fas fa-envelope fa-2x"></i>
-                    </a>
-                    <p>Email</p>
-                </div>
-                <div id="contact_info">
-                    <a id="profile-link" href="https://www.freecodecamp.org/khush-ramdev " target="_blank">
-                        <i class="fab fa-free-code-camp fa-2x"></i>
-                    </a>
-                    <p>Free Code Camp</p>
+                        <p>Email</p>
+                    </a> 
                 </div>
             </div>
            </div>

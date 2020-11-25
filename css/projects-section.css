@@ -1,6 +1,6 @@
 
 #projects{
-    background-color: #45567d;
+    background-color: #709fb0;
     padding: 5rem 0;
 }
 .project-container{
@@ -12,16 +12,63 @@
 
 #project-head{
     text-align: center;
-    font-size: 50px;
-    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
-.project-tile{
-    width:400px;
-    margin: 1rem 0;
-}
 
-#project-title{
+.card{
+    font-family: nunito;
+    background-color: #ffffff;
+
+    margin: 1rem;
+    width: 400px;
+    min-height: 250px;
+    padding: 1rem;
+
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 5px 8px #000000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
     text-align: center;
-    font-size: 1.5rem;
+}
+
+.card-header{
+    color:#6886c5;
+    font-size: 2rem;
+    text-transform: uppercase;
+    flex-grow: 0;
+    max-height: 100px;
+}
+
+.card a {
+    background-color:#6886c5;
+    color:white;
+    margin-top:1rem;
+    padding: 0.5rem 1rem;
+    border-radius:1rem;
+}
+
+.card a:hover{
+    color:black;
+}
+
+.fa-xs{
+    padding-top:15px;
+    vertical-align: top;
+    font-size: 0.8rem;
+}
+
+
+@media(max-width:600px){
+    #project-head{
+        padding: 1.5rem 0 0 0;
+        margin: 0;
+    }
 }

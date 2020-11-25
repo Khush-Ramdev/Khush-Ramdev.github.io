@@ -1,0 +1,22 @@
+#resume{
+    background-color: #aaffa7;
+}
+
+#education{
+    min-width: 50vh;
+}
+#education-header{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 6vw;
+}
+
+#education-content{
+    font-family: nunito;
+}
+
+
+@media(max-width:500px){
+    #education-header{
+        /* font-size: 1.5rem; */
+    }
+}

@@ -1,6 +1,7 @@
 #contact_me{
     min-height:100vh;
-    background-color:#595959;
+    background-color:#A4A9aa;
+    color:black;
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -32,11 +33,23 @@
     padding: 0.5rem;
 }
 
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+}
+
 @media(max-width:600px){
     .contact_me{
         flex-wrap:wrap;
     }
     #contact_info{
         display: inline;
+    }
+    #contact_me div h1{
+        font-size:30px;
     }
 }
