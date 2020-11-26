@@ -2,21 +2,42 @@
     background-color: #aaffa7;
 }
 
-#education{
-    min-width: 50vh;
-}
-#education-header{
+#education-header,#skills-header,#certification-header{
     font-family: 'Montserrat', sans-serif !important;
     font-size: 6vw;
+    padding: 1rem 0;
 }
 
-#education-content{
+#education-content,#skills-content,#certification-content{
     font-family: nunito;
+    padding: 1rem 0;
 }
 
+#education-content h2 , #skills-content h3{
+    font-size:2rem;
+}
 
-@media(max-width:500px){
-    #education-header{
-        /* font-size: 1.5rem; */
+#text{
+    padding: 1rem 0;
+    font-size:1.5rem;
+}
+
+#certification-content a{
+    display: inline-block;
+    background-color:#8fe47e;
+    margin: 0.5rem 0 0 0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+@media(max-width:600px){
+    #education-header,#skills-header,#certification-header{
+        font-size: 1.8rem; 
+    }
+    #education-content h2, #skills-content h3 {
+        font-size:1.2rem;
+    }
+    #text{
+        font-size:1rem;
     }
 }
