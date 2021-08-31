@@ -12,6 +12,7 @@ button.addEventListener("click", () => {
 
 dropdownItems.forEach((item) => {
   item.addEventListener("click", () => {
+      button.classList.toggle("transform");
     dropdown.classList.toggle("display-none");
   });
 });
