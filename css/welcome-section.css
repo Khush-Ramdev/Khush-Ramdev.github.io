@@ -50,13 +50,11 @@
 }
 
 .aboutme{
-    font-family: caveat;
+    font-family: nunito;
     padding: 2rem 1rem;
     min-height: 100vh;
     color:black;
     background-color: paleturquoise;
-    
-
     display: flex;
     align-items: center;
     font-size: 2rem;
@@ -103,7 +101,7 @@
         min-height: 80vh;
     }
     .aboutme-header{
-        font-size: 3.5rem;
+        font-size: 2.8rem;
     }
     .aboutme-content{
         text-align: justify;

@@ -4,8 +4,35 @@
     position: fixed;
     top:0px;
     width:100vw;
-    
+    color:white;
     box-sizing: border-box;
+}
+
+.icon{
+    display: none;
+}
+
+.transform{
+    transform: rotate(90deg);
+}
+
+.menu-dropdown{
+    text-align: right;
+}
+
+.menu-dropdown a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    color:white;
+}
+
+.menu-dropdown a:hover{
+    color:black;
+    background-color: white;
+}
+
+.menu-dropdown-items{
+    margin: 0.5rem 0.2rem;
 }
 
 .row{
@@ -60,28 +87,17 @@ a:hover > li {
     color:#424874;
 }
 
-@media (max-width:500px)
-{
-    #navbar{
-        height: 35px;
-    }
+@media (max-width:700px){
     .row{
-        text-align: center;
-        width: 95%;
+        display: block;
     }
-    ul{
-        padding: 0;
-        justify-content:space-around;
-        font-size: 1rem;
+    .list{
+        display:none;
     }
-    #name{
-        font-size: 0.9rem;
-        height: 100%;
-        padding: 0.25rem 0 0 0;
+    .icon{
+        position: fixed;
+        top:10px;
+        right: 20px;
+        display: block;
     }
-    li{
-        padding: 0.5rem 0.8rem;
-        font-size: 0.5rem;
-    }
-
-} 
+}

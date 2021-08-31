@@ -8,8 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
-    <script data-search-pseudo-elements defer src="https://kit.fontawesome.com/c6ca89d84e.js" crossorigin="anonymous"></script>
-    <script src="javascript/index.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="javascript/index.js" defer></script>
+    <title>portfolio</title>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
                     Khush Ramdev
                 </a>
             </div>
-            <ul>
+            <ul class="list">
                 <a href="#welcome-section">
                     <li> Home</li>
                 </a>
@@ -30,10 +31,27 @@
                 <a href="#projects">
                     <li>Projects</li>
                 </a>
-                <a href="#contact_me" onclick="me">
+                <a href="#contact_me" >
                     <li>Contact Me</li>
                 </a>
             </ul>
+            <div class="icon">
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <div class="menu-dropdown display-none">
+                <div class="menu-dropdown-items">
+                    <a href="#welcome-section">Home</a>
+                </div>
+                <div class="menu-dropdown-items">
+                    <a href="#aboutme1">About ME</a>
+                </div>
+                <div class="menu-dropdown-items">
+                    <a href="#projects">Projects</a>
+                </div>
+                <div class="menu-dropdown-items">
+                    <a href="#contact_me">Contact ME</a>
+                </div>
+            </div>
         </div>
     </nav>
     <main id="main">
@@ -41,7 +59,7 @@
                 <div id="home">
                     <div class="flex">
                         <div >
-                            <img class="image" src='/image/mypic.jpeg'>
+                            <img alt="my image" class="image" src='/image/mypic.jpeg'>
                             </img>
                         </div>
                         <div class="text-header">
@@ -55,15 +73,15 @@
                     </div>
                 </div>
             </section>
-        <section class="aboutme" id="aboutme1">
+        <section class="aboutme min-height-15vh" id="aboutme1">
             <div id="container" class="flex-row">
                 <div class="aboutme-header">
                     <h1>
                         About Me
                     </h1>
                 </div>
-                <div class="aboutme-content"> 
-                    Currently a student of 3<sup>nd</sup> year Information Tech. in MAIT Rohini<br></br>
+                <div class="aboutme-content display-none"> 
+                    Currently a student of 3<sup>rd</sup> year Information Tech. in MAIT Rohini<br></br>
                     Not smartest in the room but I know my way around things. Developing front end skills such as ReactJs to reach my goal of being a Full Stack (MERN) developer. 
                     Loves to watch Formula 1 and random documentaries. 
                 </div>
@@ -77,7 +95,7 @@
                             Education
                         </h1>
                     </div>
-                    <div id="education-content">
+                    <div id="education-content" class=" display-none">
                         <div>
                             <h2>ST FROEBEL SR SEC SCHOOL</h2>
                         </div>
@@ -117,7 +135,7 @@
                         Skills
                     </h1>
                 </div>
-                <div id="skills-content">
+                <div id="skills-content" class=" display-none">
                     <div id="text">
                         <h3>C++ : Skillful</h3>
                     </div>
@@ -146,7 +164,7 @@
                         Certifications
                     </h1>
                 </div>
-                <div id="certification-content">
+                <div id="certification-content" class=" display-none">
                     <div id="text">
                         <h2>Responsive Web Design</h2>
                         <h3>FreeCodeCamp</h3>
@@ -175,8 +193,21 @@
                         <h2>Algorithmic Toolbox</h2>
                         <h3>Coursera</h3>
                         <div>Nov, 2020</div>
-                        <!-- <div>In Progress</div> -->
                         <a class="link" href="https://www.coursera.org/account/accomplishments/verify/4W4MAZ7ZEECE" target="_blank" disable="yes">Verify</a>
+                    </div>
+                    <div id="text">
+                        <h2>Interactivity with JavaScript</h2>
+                        <h3>Coursera</h3>
+                        <div>August, 2021</div>
+                        <a class="link" href="https://www.coursera.org/account/accomplishments/verify/NXRJX2A8PZMA" target="_blank" disable="yes">Verify</a>
+                    </div>
+                    <div id="text">
+                        <h2>
+                            Front-End Web Development with React</h2>
+                        <h3>Coursera</h3>
+                        <div>september, 2021</div>
+                        <div>In Progress</div>
+                        <!-- <a class="link" href="#" target="_blank" disable="yes">Verify</a> -->
                     </div>
                 </div>
             </div>
@@ -261,12 +292,26 @@
                 </div>
                 <div class="card">
                     <h1 class="card-header">
+                    <i class="fas fa-drum"></i>
+                        Rock Paper Scissor Game
+                    </h1>
+                    <div>
+                    <p>
+                        A rock Paper Scissor game using javascript
+                    </p>
+                    <a href='https://rockpapersscissor.vercel.app/' target="_blank">
+                        Live Demo
+                    </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h1 class="card-header">
                     <i class="fas fa-plus"></i>
           
                         For More Projects
                     </h1>
                     <div>
-                        <a href='https://codepen.io/Khushramdev' target="_blank">
+                        <a href='https://github.com/Khush-Ramdev' target="_blank">
                         Click Here
                     </a>
                     </div>

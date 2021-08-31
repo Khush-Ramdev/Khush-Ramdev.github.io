@@ -3,6 +3,7 @@
 }
 
 #education-header,#skills-header,#certification-header{
+    text-align: center;
     font-family: 'Montserrat', sans-serif !important;
     font-size: 6vw;
     padding: 1rem 0;
